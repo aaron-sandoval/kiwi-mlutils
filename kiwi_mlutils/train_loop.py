@@ -118,7 +118,7 @@ def test_step(model: torch.nn.Module,
     test_acc = test_acc / len(dataloader)
     return test_loss, test_acc
 
-def train(model: torch.nn.Module, 
+def train_basic(model: torch.nn.Module, 
           train_dataloader: torch.utils.data.DataLoader, 
           test_dataloader: torch.utils.data.DataLoader, 
           optimizer: torch.optim.Optimizer,

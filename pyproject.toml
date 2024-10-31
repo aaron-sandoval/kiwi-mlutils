@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "kiwi_mlutils"
-version = "0.1.6"
+version = "0.2.0"
 description = "Misc machine learning utilities"
 authors = ["aaron-sandoval <32021231+aaron-sandoval@users.noreply.github.com>"]
 license = "MIT"
