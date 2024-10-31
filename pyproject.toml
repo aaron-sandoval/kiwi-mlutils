@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "kiwi_mlutils"
-version = "0.1.5"
+version = "0.1.6"
 description = "Misc machine learning utilities"
 authors = ["aaron-sandoval <32021231+aaron-sandoval@users.noreply.github.com>"]
 license = "MIT"
@@ -12,7 +12,7 @@ python = "^3.10"
 torch = "^2.3.1"
 numpy = "^1.22"
 matplotlib = "^3.7.0"
-torchvision = "^0.18.0"
+torchvision = ">=0.18.0, <1.0"
 jaxtyping = ">=0.2.19"
 tqdm = "^4.65.0"
 
